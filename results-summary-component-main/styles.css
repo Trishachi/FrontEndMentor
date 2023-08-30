@@ -1,0 +1,64 @@
+/* Global Styles */
+body {    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+#container{
+    margin-top: 15%;
+    max-width: 375xpx;
+    display: flex;
+
+}
+
+/* Styles for Result box */
+
+#result-box {
+    background-color: hsl(241, 81%, 54%);
+    color: hsl(0, 0%, 100%);
+    padding: 25px 35px;
+    border-radius: 15px;
+    max-width: 300px;
+
+}
+
+
+.score-card {
+    background-color: hsla(256, 72%, 46%, 1);
+    width: 100px;
+    border-radius: 50%;
+    padding: 25px 15px;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.grade {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.total-grade{
+    font-size: smaller;
+}
+
+.score-text {
+
+}
+
+
+/* Styles for Summary Box */
+#summary-box {
+    
+}
+
+button {
+    padding: 10px;
+    border-radius: 25px;
+    width: 80%;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+}
+
