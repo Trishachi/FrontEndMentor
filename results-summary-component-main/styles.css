@@ -29,7 +29,7 @@ body {
 
 
 .score-card {
-    background-color: hsla(256, 72%, 46%, 1);
+    background-image:linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
     width: 100px;
     border-radius: 50%;
     padding: 25px 15px;
