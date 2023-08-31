@@ -1,9 +1,11 @@
+
+
 /* Global Styles */
 body {    
     display: flex;
     justify-content: center;
     text-align: center;
-    height: 100vh;
+    height: 80vh;
     font-family: 'Hanken Grotesk', sans-serif;
 }
 
@@ -17,7 +19,7 @@ body {
 /* Styles for Result box */
 
 #result-box {
-    background-color: hsl(241, 81%, 54%);
+    background-image:linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
     color: hsl(0, 0%, 100%);
     padding: 25px 35px;
     border-radius: 15px;
