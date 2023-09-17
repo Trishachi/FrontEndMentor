@@ -57,6 +57,10 @@ body {
     padding: 25px;
 }
 
+.summary-title{
+    text-align: left;
+}
+
 button {
     padding: 10px;
     border-radius: 25px;
