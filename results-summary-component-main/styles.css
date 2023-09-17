@@ -21,9 +21,9 @@ body {
 #result-box {
     background-image:linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
     color: hsl(0, 0%, 100%);
-    padding: 25px 35px;
+    padding: 25px;
     border-radius: 15px;
-    max-width: 300px;
+    max-width: 250px;
 
 }
 
@@ -53,7 +53,8 @@ body {
 
 /* Styles for Summary Box */
 #summary-box {
-    
+    max-width: 250px;
+    padding: 25px;
 }
 
 button {
