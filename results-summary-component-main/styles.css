@@ -164,7 +164,12 @@ button {
     background-color: var(--Dark-gray-blue);
     color: white;
     margin-top: 10px;
+    border: none;
 }
+
+button:hover {
+    background-image:linear-gradient(to top, var(--Light-royal-blue-background), var(--Light-slate-blue-background));
+   }
 
 /* Small Screens */
 @media only screen and (max-width: 500px) {
