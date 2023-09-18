@@ -14,7 +14,9 @@ body {
     margin: auto;
     max-width: 375xpx;
     display: flex;
-
+    border: 0.5px solid hsl(221, 100%, 99%);
+    box-shadow: 10px 10px 20px hsl(221, 100%, 96%);
+    border-radius: 25px;
 }
 
 /* Styles for Result box */
@@ -32,6 +34,7 @@ body {
 .result-title {
     font-size: 18px;
     margin: 5px 0;
+    color: hsl(241, 100%, 89%);
 }
 
 
@@ -51,6 +54,7 @@ body {
 
 .total-grade{
     font-size: smaller;
+    color: hsl(241, 100%, 75%);
 }
 
 .score-description {
@@ -60,6 +64,7 @@ body {
 .score-text {
     font-size: 14px;
     padding: 0 25px;
+    color: hsl(241, 100%, 89%);
 }
 
 
