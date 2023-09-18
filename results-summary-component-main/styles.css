@@ -7,10 +7,11 @@ body {
     text-align: center;
     height: 80vh;
     font-family: 'Hanken Grotesk', sans-serif;
+    
 }
 
 #container{
-    margin-top: 15%;
+    margin: auto;
     max-width: 375xpx;
     display: flex;
 
@@ -18,27 +19,33 @@ body {
 
 /* Styles for Result box */
 
+
 #result-box {
     background-image:linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
     color: hsl(0, 0%, 100%);
     padding: 25px;
-    border-radius: 15px;
+    border-radius: 25px;
     max-width: 250px;
 
+}
+
+.result-title {
+    font-size: 18px;
+    margin: 5px 0;
 }
 
 
 .score-card {
     background-image:linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
-    width: 100px;
+    width: 115px;
     border-radius: 50%;
     padding: 25px 15px;
-    margin: 0 auto;
+    margin: 30px auto;
     max-width: 300px;
 }
 
 .grade {
-    font-size: 45px;
+    font-size: 50px;
     font-weight: bold;
 }
 
@@ -46,32 +53,39 @@ body {
     font-size: smaller;
 }
 
-.score-text {
+.score-description {
+    font-size: 24px;
+}
 
+.score-text {
+    font-size: 14px;
+    padding: 0 25px;
 }
 
 
 /* Styles for Summary Box */
 #summary-box {
     max-width: 250px;
-    padding: 25px;
+    padding: 30px;
 }
 
 .summary-title{
     text-align: left;
+    margin: 0;
+    font-size: 18px;
 }
 
 .scores {
     width: 250px;
-    margin: 30px 0;
+    margin: 20px 0;
     text-align: left;
 }
 
 .row {
-    display: flex;
-    background: pink;
+    display: flex;    
     padding: 10px;
     border-radius: 10px;
+    margin: 15px 0;
 }
 
 .icon{
@@ -83,6 +97,37 @@ body {
     flex: 80;
 }
 
+.reaction-txt {    
+    color: hsl(0, 100%, 67%);
+}
+
+.reaction-bg {
+    background-color: hsl(0, 100%, 95%);
+}
+
+.memory-txt {    
+    color: hsl(39, 100%, 56%)
+}
+
+.memory-bg {
+    background-color: hsl(39, 100%, 95%);
+}
+
+.verbal-txt {    
+    color: hsl(166, 100%, 37%);
+}
+
+.verbal-bg {
+    background-color: hsl(166, 100%, 95%);
+}
+
+.visual-txt {    
+    color: hsl(234, 85%, 45%);
+}
+
+.visual-bg {
+    background-color: hsl(234, 85%, 95%);
+}
 
 
 button {
@@ -91,5 +136,6 @@ button {
     width: 100%;
     background-color: hsl(224, 30%, 27%);
     color: white;
+    margin-top: 10px;
 }
 
