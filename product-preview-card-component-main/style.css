@@ -14,5 +14,10 @@ body{
     
 }
 
+.container{
+    display: flex;
+    max-width: 500px;
+}
+
 
 /* Mobile View */
